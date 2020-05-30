@@ -15,9 +15,26 @@ body {
   max-width: 600px;
 }
 #message {
-  color: white;
+  color: black;
 }
 
 h1 {
   color: white;
+}
+
+#stripe {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+}
+
+#stripe button {
+  height: 30px;
+  background-color: white;
+  border: 0;
+}
+
+#stripe button:hover {
+  background-color: aquamarine;
+  border: 4px solid aquamarine;
 }
