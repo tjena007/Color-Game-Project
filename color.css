@@ -8,6 +8,7 @@ body {
   padding-bottom: 30%;
   float: left;
   margin: 1.66%;
+  border-radius: 15%;
 }
 
 .container {
@@ -20,6 +21,10 @@ body {
 
 h1 {
   color: white;
+  background-color: steelblue;
+  text-align: center;
+  margin: 0;
+  height: 120px;
 }
 
 #stripe {
@@ -34,7 +39,11 @@ h1 {
   border: 0;
 }
 
-#stripe button:hover {
+#newcolor:hover {
   background-color: aquamarine;
-  border: 4px solid aquamarine;
+  border: 1px solid aquamarine;
+}
+
+#stripe .selected {
+  background-color: steelblue;
 }
